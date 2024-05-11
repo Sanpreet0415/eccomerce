@@ -1,0 +1,37 @@
+#img1{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+#space{
+    justify-content: space-between;
+    display: flex;
+}
+#margin{
+    margin-right: 45px;
+    margin-top: 9px;
+}
+button{
+    background-color: white;
+    border: white;
+}
+.image-container {
+    position: relative;
+}
+
+.navigation-arrows {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 1; /* Ensures arrows are above images */
+}
+
+.left-arrow {
+    left: 10px;
+}
+
+.right-arrow {
+    right: 10px;
+}
